@@ -29,7 +29,7 @@
 .add-item__task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .add-item__row {
     display: flex;
