@@ -34,11 +34,11 @@
 .add-item__row {
     display: flex;
 }
-ul {
+.body {
     margin:0;
     padding: 0px;
 }
-li, .title {
+.column, .title {
     list-style:none;
 }
 input,button{
@@ -128,21 +128,21 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.body.completed__body label {
     text-decoration: line-through
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.body li input[type=text] {
     display:none
 }
 
-ul li.editMode input[type=text] {
+.body li.editMode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li.editMode label {
+.body li.editMode label {
     display:none;
 }
