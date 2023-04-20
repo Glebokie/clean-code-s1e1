@@ -138,11 +138,11 @@ button.delete img:hover {
     display:none
 }
 
-.body li.editMode input[type=text] {
+.body .todo__column_edit input[type=text] {
     display:inline-block;
     width:224px
 }
 
-.body li.editMode label {
+.body .todo__column_edit label {
     display:none;
 }
