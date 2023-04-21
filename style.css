@@ -124,7 +124,7 @@ h2{
     width: 226px;
 }
 .column > .input.task {
-    width: 226px
+    width: 226px;
 }
 .button.delete .img {
     height: 2em;
@@ -137,18 +137,18 @@ h2{
 
 /* Completed */
 .body.completed__body .label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .body .column .input.task {
-    display: none
+    display: none;
 }
 
 .body .todo__column_edit .input.task {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .body .todo__column_edit .label {
