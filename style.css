@@ -43,10 +43,12 @@ h2{
     margin:0;
     padding: 0px;
 }
-.column, .title {
+.column,
+.title {
     list-style:none;
 }
-.input,.button{
+.input,
+.button {
     outline:none;
 }
 .button {
@@ -121,7 +123,7 @@ h2{
     font-size: 18px;
     width: 226px;
 }
-.column >    .input.task {
+.column > .input.task {
     width: 226px
 }
 .button.delete .img {
