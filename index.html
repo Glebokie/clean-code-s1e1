@@ -16,28 +16,28 @@
     </header>
     <main class="main">
       <section class="add-item" id="topSectionForAddingElementToList">
-        <label class="add-item__label" for="new-task">Add Item</label>
+        <label class="add-item__label label" for="new-task">Add Item</label>
         <div class="add-item__row task-row-wrapper">
-          <input id="new-task" class="add-item__task task" type="text">
+          <input id="new-task" class="add-item__task task input" type="text">
           <button class="add-item__button button">Add</button>
         </div>
       </section>
       <section class="todo">
         <h3 class="todo__title title">Todo</h3>
-        <ul id='incompleteTasks' class="todo__body body">
+        <ul class="todo__body body">
           <li class="todo__column column">
-            <input type='checkbox' class="todo__checkbox checkbox">
-            <label class="task todo__task">Pay Bills</label>
-            <input type="text" class="task todo__task">
+            <input type='checkbox' class="todo__checkbox checkbox input">
+            <label class="task todo__task label">Pay Bills</label>
+            <input type="text" class="task todo__task input">
             <button class="edit todo__edit-button button">Edit</button>
             <button class="delete todo__delete-button button">
               <img class="todo__img img" src="./remove.svg">
             </button>
           </li>
           <li class="column todo__column todo__column_edit editMode">
-            <input type="checkbox" class="todo__checkbox checkbox">
-            <label class="task todo__task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task todo__task">
+            <input type="checkbox" class="todo__checkbox checkbox input">
+            <label class="task todo__task label">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="task todo__task input">
             <button class='edit todo__edit-button button'>Save</button>
             <button class="delete todo__delete-button button">
               <img class="todo__img img" src="./remove.svg">
@@ -47,11 +47,11 @@
       </section>
       <section class="completed">
         <h3 class="completed__title title">Completed</h3>
-        <ul id="completed-tasks" class="completed__body body">
+        <ul class="completed__body body">
           <li class="completed__column column">
-            <input class="completed__checkbox checkbox" type="checkbox" checked>
-            <label class="task completed__task">See the Doctor</label>
-            <input type="text" class="task completed__task">
+            <input class="completed__checkbox checkbox input" type="checkbox" checked>
+            <label class="task completed__task label">See the Doctor</label>
+            <input type="text" class="task completed__task input">
             <button class="edit completed__edit-button button">Edit</button>
             <button class="delete completed__delete-button button">
               <img  class="completed__img img" src="./remove.svg">
