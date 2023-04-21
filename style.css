@@ -40,16 +40,16 @@ h2{
     display: flex;
 }
 .body {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .column,
 .title {
-    list-style:none;
+    list-style: none;
 }
 .input,
 .button {
-    outline:none;
+    outline: none;
 }
 .button {
     background: none;
@@ -143,14 +143,14 @@ h2{
 
 /* Edit Task */
 .body .column .input.task {
-    display:none
+    display: none
 }
 
 .body .todo__column_edit .input.task {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .body .todo__column_edit .label {
-    display:none;
+    display: none;
 }
